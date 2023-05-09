@@ -1,0 +1,45 @@
+.section-wrapper{  /* div kaml li feh tsawr  */
+
+    background-color: black;
+border-radius: var(--border-radius-primary);
+padding: var(--padding-primary);
+margin-top: var( --margin-primary);
+
+}
+  .section-header{
+
+    font-size: 36px;
+    font-weight: var(--font-weight-bold);
+
+  }
+
+.most-popular-items{
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+
+.most-popular-item{
+    flex: 1  25%;
+}
+  .card-wrapper{
+
+    background-color: var(--color-dark);
+    border-radius: calc(var( --border-radius-primary));
+    padding: calc(var(--padding-primary)/2);
+    margin: calc(var( --margin-primary)/5);
+  }
+
+
+
+
+  .most-popular-item-content{
+    display: flex;
+    justify-content: space-between;
+  }
+
+   .most-popular-item-title{
+    font-size: 14px;
+    line-height: 1.5rem;
+
+   }
